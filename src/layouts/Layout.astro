@@ -1,23 +1,34 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Generador de QR"/>
-		<title>Generador de QR</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Generador de QR" />
+    <title>Generador de QR</title>
+    <meta property="og:title" content="Generador de QR" />
+    <meta
+      property="og:description"
+      content="Generador de códigos QR para compartir información || Desarrollado por Jonatan Barrios"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/ds8cp2nxp/image/upload/v1740033879/qr-generator/Captura_de_pantalla_2025-02-20_004230_s6jedp.png"
+    />
+    <meta property="og:url" content="https://portfolio-jonatan-barrios.vercel.app/" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
