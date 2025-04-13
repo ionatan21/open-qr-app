@@ -5,7 +5,7 @@ const colorOptions = [
   "#2bff00", // verde
   "#60a5fa", // azul
   "#000000", // negro
-  "#ffffff", // blanco
+  "#ff00ea", // blanco
 ];
 
 export const ColorSelector = ({ label, value, onChange }) => {
