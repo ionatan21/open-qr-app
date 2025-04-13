@@ -3,6 +3,7 @@ import { QRCodeSVG } from "qrcode.react";
 import { toPng } from "html-to-image";
 import ImageDropUploader from "./ImageDropUploader";
 import { ColorSelector } from "./ColorSelector";
+import '../styles/global.css'
 
 const QRGenerator = () => {
   const [valor, setValor] = useState("");
